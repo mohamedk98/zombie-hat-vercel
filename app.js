@@ -158,3 +158,5 @@ socketIoServer.listen(PORT, async () => {
   await connectToRedis();
   await connectToMongo();
 });
+
+module.exports = socketIoServer
